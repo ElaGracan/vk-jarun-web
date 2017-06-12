@@ -1,0 +1,135 @@
+.row
+{
+	clear: both;
+	overflow: hidden;
+	padding: 0.5em 2em;
+}
+/*boje*/
+.row--white
+{
+	background: #fff;
+}
+
+.row--gray
+{
+	background: #ddd;
+}
+
+.row--blue
+{
+	background: #3bb2d0;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.row--dark-gray
+{
+	color: #fff;
+	background: #282e37;
+}
+
+.container-narrow,
+.container-wide,
+.container-medium
+{
+	margin: 0 0;
+	padding-left: 1.5em;
+	padding-right:1.5em;
+}
+
+.container-narrow
+{
+	max-width: 58em;
+
+}
+
+.container-medium
+{
+	max-width: 52em;
+
+
+}
+
+.container-wide
+{
+	max-width: 58em;
+
+}
+
+.col-medium,
+.col-wide
+{
+	padding: 0.2em;
+}
+
+
+
+@media (min-width: 50em)
+{
+	.row--padding-medium
+	{
+		padding-top: 3.8889em;
+		padding-bottom: 3.8889em;
+		/*70/18 px*/
+	}
+
+	.row--padding-wide
+	{
+		padding-top: 5.5556em;
+		padding-bottom: 5.5556em;
+		/*100/18 px*/
+	}
+	
+	
+	.container-wide,
+	.container-medium
+	{
+		padding-left: 2em;
+		padding-right: 2em;
+
+	}
+	.container-narrow
+	{
+		margin: auto;
+		
+	}
+	.container-wide
+	{ 
+		margin: auto;
+		text-align: center;
+	}
+	.col-medium
+	{
+		padding: 0.5em;
+		width: 18%;
+		float: left;
+	}
+	.col-narrow
+	{
+		margin: 0.5em 0.5em;
+		max-width: 30%;
+	}
+	
+	.col-wide
+	{ 
+		
+		float: left;
+		width: 15%;	
+	}
+	.galerija
+	{
+		float: left;
+	}
+	aside
+	{
+		float: left;
+		max-width: 40%;
+	
+	}
+	/*aside img
+	{
+		width: 40%;
+	}*/
+}
+
